@@ -1,0 +1,37 @@
+.dark-theme {
+    --backgroundColor: var(--dark-mode-bg-color);
+    --textColor: var(--dark-mode-text-color);
+}
+
+.toggle-container {
+    width: var(--view-width);
+    max-width: var(--max-width);
+    padding: 1rem 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.switch-btn {
+    display: flex;
+    background: red;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid red;
+}
+
+.dark-toggle {
+    background: transparent;
+    border-color: transparent;
+    width: 5rem;
+    height: 2rem;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+
+.toggle-icon {
+    font-size: 1.5rem;
+    color: var(--textColor);
+}
