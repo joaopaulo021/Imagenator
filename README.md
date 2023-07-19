@@ -25,7 +25,7 @@ O aplicativo foi desenvolvido utilizando as seguintes tecnologias:
  - A API do Unsplash foi usada para buscar imagens da Unsplash e exibi-las na lista de imagens.
 
  # React Context
- - Context foi usado para compartilhar o estado do tema entre diferentes componentes
+ - Context foi usado para compartilhar o estado da aplicação entre diferentes componentes
 
  # React Query
  - Usado para armazenar os resultados das solicitações de busca do Unsplash em estado. Permitindo que o aplicativo exiba as imagens mais recentes da Unsplash, mesmo que a página for recarregada.
